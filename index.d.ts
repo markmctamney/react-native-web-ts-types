@@ -25,7 +25,7 @@ export {
 	SafeAreaViewProps,
 } from './exports/SafeAreaView';
 export { default as Switch, SwitchProps } from './exports/Switch';
-export { default as Text, TextProps } from './exports/Text';
+export { default as Text, TextProps, TextStyle } from './exports/Text';
 export { default as TextInput, TextInputProps } from './exports/TextInput';
 export {
 	default as TouchableOpacity,

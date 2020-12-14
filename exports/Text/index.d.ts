@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { TextProps } from './types';
+import { TextProps, TextStyle } from './types';
 
-export type { TextProps };
+export type { TextProps, TextStyle };
 
 export default class Text extends React.Component<TextProps> {}
