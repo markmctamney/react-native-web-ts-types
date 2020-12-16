@@ -1,9 +1,7 @@
 import React from 'react';
 
 import type { TouchableWithoutFeedbackProps } from '../TouchableWithoutFeedback';
-import type { ViewProps } from '../View';
-
-type ViewStyle = ViewProps['style'];
+import type { ViewProps, ViewStyle } from '../View';
 
 export type TouchableOpacityProps = TouchableWithoutFeedbackProps & {
 	activeOpacity?: number | null | undefined;
