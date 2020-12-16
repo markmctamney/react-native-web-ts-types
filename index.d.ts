@@ -27,7 +27,11 @@ export {
 export { default as ScrollView, ScrollViewProps } from './exports/ScrollView';
 export { default as Switch, SwitchProps } from './exports/Switch';
 export { default as Text, TextProps, TextStyle } from './exports/Text';
-export { default as TextInput, TextInputProps } from './exports/TextInput';
+export {
+	default as TextInput,
+	TextInputProps,
+	TextInputStyle,
+} from './exports/TextInput';
 export {
 	default as TouchableOpacity,
 	TouchableOpacityProps,

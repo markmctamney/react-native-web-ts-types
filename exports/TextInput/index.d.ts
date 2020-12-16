@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { TextInputProps } from './types';
+import { TextInputProps, TextInputStyle } from './types';
 
-export type { TextInputProps };
+export type { TextInputProps, TextInputStyle };
 
 export default class TextInput extends React.Component<TextInputProps> {}
