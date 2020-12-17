@@ -29,7 +29,7 @@ export type PressResponderConfig = {
 	onPressEnd?: (event: ResponderEvent) => void | null | undefined;
 };
 
-export type EventHandlers = $ReadOnly<{
+export type EventHandlers = {
 	onClick: (event: ClickEvent) => void;
 	onContextMenu: (event: ClickEvent) => void;
 	onKeyDown: (event: KeyboardEvent) => void;
@@ -39,4 +39,4 @@ export type EventHandlers = $ReadOnly<{
 	onResponderTerminate: (event: ResponderEvent) => void;
 	onResponderTerminationRequest: (event: ResponderEvent) => boolean;
 	onStartShouldSetResponder: (event: ResponderEvent) => boolean;
-}>;
+};
