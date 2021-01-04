@@ -1,3 +1,4 @@
+import React from 'react';
 import type { ViewProps } from '../View';
 import PickerItem, { PickerItemProps } from './PickerItem';
 // TODO: implement StyleObj
