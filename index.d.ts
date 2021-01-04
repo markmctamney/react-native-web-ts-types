@@ -13,6 +13,12 @@ export {
 } from './exports/ImageBackground';
 export { default as Modal, ModalProps } from './exports/Modal';
 export {
+	default as Picker,
+	PickerProps,
+	PickerItem,
+	PickerItemProps,
+} from './exports/Picker';
+export {
 	default as ProgressBar,
 	ProgressBarProps,
 } from './exports/ProgressBar';

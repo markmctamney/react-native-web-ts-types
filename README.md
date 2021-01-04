@@ -1,8 +1,11 @@
 # Getting Started
 
 To install react-native-web-ts-types, run
+
 `npm i https://github.com/gtechnologies/react-native-web-ts-types.git`
+
 or
+
 `yarn add https://github.com/gtechnologies/react-native-web-ts-types.git`
 
 It will automatically be saved as @types/react-native-web and allow you to use TypeScript with [react-native-web](https://github.com/necolas/react-native-web).
