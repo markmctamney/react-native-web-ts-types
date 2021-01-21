@@ -26,7 +26,7 @@ type FontWeightValue =
 
 type NumberOrString = number | string;
 
-export type TextStyle = ViewStyle & {
+export interface TextStyle extends ViewStyle {
 	color?: ColorValue | null | undefined;
 	fontFamily?: string | null | undefined;
 	fontFeatureSettings?: string | null | undefined;
@@ -85,9 +85,9 @@ export type TextStyle = ViewStyle & {
 	/* @platform web */
 	MozOsxFontSmoothing?: string | null | undefined;
 	WebkitFontSmoothing?: string | null | undefined;
-};
+}
 
-export type TextProps = ViewProps & {
+export interface TextProps extends ViewProps {
 	accessibilityRole?:
 		| 'button'
 		| 'header'
@@ -116,4 +116,4 @@ export type TextProps = ViewProps & {
 	selectable?: boolean;
 	style?: GenericStyleProp<TextStyle>;
 	testID?: string | null | undefined;
-};
+}
