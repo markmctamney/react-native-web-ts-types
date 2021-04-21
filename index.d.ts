@@ -6,7 +6,7 @@ export {
 } from './exports/ActivityIndicator';
 export { default as Button, ButtonProps } from './exports/Button';
 export { default as CheckBox, CheckBoxProps } from './exports/CheckBox';
-export { default as Image, ImageProps } from './exports/Image';
+export { default as Image, ImageProps, ImageStyle } from './exports/Image';
 export {
 	default as ImageBackground,
 	ImageBackgroundProps,
